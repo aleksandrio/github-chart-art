@@ -1,0 +1,26 @@
+{
+  "name": "github-chart-art",
+  "version": "0.1.0",
+  "description": "Write text on your GitHub contribution graph with back-dated commits.",
+  "type": "module",
+  "exports": "./src/index.js",
+  "bin": {
+    "chart-art": "bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "github",
+    "contribution-graph",
+    "commit-art"
+  ],
+  "license": "MIT"
+}
